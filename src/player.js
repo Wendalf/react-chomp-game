@@ -6,7 +6,7 @@ class Playerinfo extends Component {
         <div>
           {this.props.winner ? 
           this.props.winner + ' won the game' : 
-          `It's ${this.props.turn}'s turn. Go chomp some squares off!`}
+          `${this.props.turn}'s turn. Go chomp some squares off!`}
         </div>
     )
   }
