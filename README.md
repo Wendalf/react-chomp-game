@@ -1,6 +1,7 @@
 This is the React implementation of the game CHOMP.
 
 Contributors: [@Wendalf](https://github.com/Wendalf), [@cngonzalez](https://github.com/cngonzalez)
+
 The game idea was prsented during the Basic Javascript Games Meetup on Jan 24, 2017
 
 Below are the description of the game.
