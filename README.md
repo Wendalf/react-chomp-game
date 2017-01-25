@@ -1,6 +1,7 @@
 This is the React implementation of the game CHOMP.
 
 The game idea was prsented during the Basic Javascript Games Meetup on Jan 24, 2017
+
 Below are the description of the game.
 
 Game #1   CHOMP
