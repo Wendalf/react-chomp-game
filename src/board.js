@@ -7,14 +7,14 @@ class Board extends Component {
     super()
     this.state = {
       board: [],
-      turn: 'Player 1', 
+      turn: 'PLAYER 1', 
       winner: null
     }
     this.clickSquare = this.clickSquare.bind(this)
   }
 
   clickSquare(e){
-    let nextPlayer = (this.state.turn === 'Player 1' ? 'Player 2' : 'Player 1');
+    let nextPlayer = (this.state.turn === 'PLAYER 1' ? 'PLAYER 2' : 'PLAYER 1');
     let x = e.target.getAttribute("x");
     let y = e.target.getAttribute("y");
     let new_board = [];

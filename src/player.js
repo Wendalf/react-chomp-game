@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 class Playerinfo extends Component {
   render(){
     return (
-        <div>
+        <div className='playerinfo'>
           {this.props.winner ? 
-          this.props.winner + ' won the game' : 
+          this.props.winner + ' won the game!' : 
           `${this.props.turn}'s turn. Go chomp some squares off!`}
         </div>
     )
