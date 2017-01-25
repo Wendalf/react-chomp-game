@@ -1,0 +1,49 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.board {
+  height: 510px;
+  width: 510px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.square {
+  background-color: pink;
+  height: 100px;
+  width: 100px;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid red;
+  position: relative; 
+  float: left;
+}
+
+.invisible {
+  background-color: white;
+  border: 1px solid white;
+}
