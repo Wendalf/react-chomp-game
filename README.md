@@ -1,5 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-Basic Javascript Games, Meetup #3, Jan 24, 2017
+This is the React implementation of the game CHOMP.
+
+The game idea was prsented during the Basic Javascript Games Meetup on Jan 24, 2017
+Below are the description of the game.
 
 Game #1   CHOMP
 ======================
@@ -31,3 +33,4 @@ In other words, CHOMPING removes a rectangle whose top-left corner is the square
 This is probably easier with diagrams!
 [CHOMP Diagram](https://goo.gl/UhoXWV)
 
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
